@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        .container{
+            background-color: rgb(95, 7, 109);
+        }
+    </style>
+</head>
+<body class="container">
+    <div >
+    <center><h1 style="color: darkorange ;">Cadastro de Alunos</h1>
+    <form>
+    <fieldset>
+        <label for="nome">Nome:</label>
+        <input type="text" nome="nome" id="nome" placeholder="Digite seu nome...">
+        <br>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenome " placeholder="Digite seu sobrenome...">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+            br>
+    </fieldset>
+
+        <label for="area">Comentarios:</label>
+        <br>
+        <textarea name="area" id="area" cols="30" rows="5"></textarea>
+        <br>
+        <label for="opcao">Qual sua cor favorita</label>
+        <input type="radio" name="opcao" checked>Azul
+        <input type="radio" name="opcao">Vermelho
+        <input type="radio" name=opcao>Amarelo
+        <br>
+        <label for="opcao2">Qual seu pet favorito</label>
+        <input type="radio" name="opcao2">Gato
+        <input type="radio" name="opcao2">Cachorro
+        <input type="radio" name="opcao2" disabled checked>Papagaio
+        <input type="radio" name="opcao2">Jacaré
+        <br>
+        <label for="estado">Selecione seu estado</label>
+        <br>
+        <select name="estado" id="estado">
+            <option value="pr">Parana</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="rs">Rio Grande do Sul</option>
+        </select>
+        <br>
+        <label for="itens">Escolha os itens de informática:</label>
+        <input type="checkbox" name="monitor" id="monitor"checked>Monitor
+        <input type="checkbox" name="teclado" id="teclado">Teclado
+        <input type="checkbox" name="mouse" id="mouse">Mouse
+        <input type="checkbox" name="impressora" id="impressora">Impressora
+        <br>
+        <input type="button" value="Botão simples">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar o formulário">
+    </div>
+    </form></center>
+    
+</body>
+</html>
